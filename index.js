@@ -68,6 +68,7 @@ function getFavorites() {
   console.log('getting favorites');
   let storedFavorites = JSON.parse(localStorage.getItem('affirmationFavorites')) ?? [];
   console.log(storedFavorites);
+  console.log("I am here");
 };
 
 const displayFavoritesButton = document.getElementById('showFavorites');
