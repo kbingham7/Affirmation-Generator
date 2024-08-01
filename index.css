@@ -1,6 +1,9 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 body {
     background-color: #bf80ff;
-    font-family: "Airal";
     display: flex;
     justify-content: center;
     justify-items: center;
@@ -43,4 +46,9 @@ body {
   .buttonContainer {
     display: flex;
     flex-direction: column;
+  }
+
+  .headerBold {
+    font-weight: 900;
+    color:#d706da;
   }
