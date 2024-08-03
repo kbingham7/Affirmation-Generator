@@ -64,15 +64,12 @@ addToFavoritesButton.addEventListener('click', () => {
 /****************************************************************************
  * 
 ****************************************************************************/
-function getFavorites() {
-  console.log('getting favorites');
-  let storedFavorites = JSON.parse(localStorage.getItem('affirmationFavorites')) ?? [];
-  console.log(storedFavorites);
-  console.log("I am here");
+function showFavorites() {
+location.href = "./views/favorites.html"; 
 };
 
 const displayFavoritesButton = document.getElementById('showFavorites');
 
 displayFavoritesButton.addEventListener('click', () => {
-  getFavorites();
+  showFavorites();
 });
